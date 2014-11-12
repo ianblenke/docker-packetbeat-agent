@@ -26,8 +26,8 @@ from other containers.
 
 You can also pull the image from Docker Hub and run it like this:
 
-    docker pull packetbeat/packetbeat-agent
-    docker run --net=host -t -i packetbeat/packetbeat-agent packetbeat -e -c /etc/packetbeat/packetbeat.conf
+    docker pull boymaas/packetbeat-agent
+    docker run --net=host -t -i boymaas/packetbeat-agent packetbeat -e -c /etc/packetbeat/packetbeat.conf
 
 But note that you will need to provide your own `packetbeat.conf`.
 
