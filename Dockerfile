@@ -10,6 +10,7 @@ RUN dpkg -i /tmp/packetbeat_amd64.deb
 ADD packetbeat.conf /etc/packetbeat/packetbeat.conf
 
 ADD run.sh /run.sh
+RUN chmod 755 /run.sh
 
 VOLUME /etc/packetbeat
 
