@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /tmp
-curl -L -O http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+curl -LsO http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
 gunzip GeoIP.dat.gz
 mkdir -p /usr/local/share/GeoIP/
 mv GeoIP.dat /usr/local/share/GeoIP/
