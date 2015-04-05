@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.9.15
+FROM phusion/baseimage:0.9.16
 MAINTAINER Ian blenke <ian@blenke.com>
 
 RUN apt-get update
